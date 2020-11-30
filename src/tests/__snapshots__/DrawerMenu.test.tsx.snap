@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Drawer menu should render correctly Should renders correctly 1`] = `
+<WithStyles(ForwardRef(Drawer))
+  classes={
+    Object {
+      "paper": "makeStyles-drawerPaper-2 makeStyles-drawerPaperClose-3",
+    }
+  }
+  open={false}
+  variant="permanent"
+>
+  <div
+    className="makeStyles-toolbarIcon-1"
+  >
+    <WithStyles(ForwardRef(IconButton))
+      id="menu-button"
+      onClick={[MockFunction]}
+    >
+      <CustomIcon
+        alt="logo"
+        icon="logo.svg"
+        iconClasses="makeStyles-imageIcon-4"
+      />
+    </WithStyles(ForwardRef(IconButton))>
+  </div>
+  <WithStyles(ForwardRef(Divider)) />
+  <WithStyles(ForwardRef(List))>
+    <MenuItem
+      icon="menu.svg"
+      key="Dashboard"
+      label="Dashboard"
+    />
+    <MenuItem
+      icon="menu.svg"
+      key="Services"
+      label="Services"
+    />
+    <MenuItem
+      icon="menu.svg"
+      key="Account"
+      label="Account"
+    />
+    <MenuItem
+      icon="menu.svg"
+      key="Messages"
+      label="Messages"
+    />
+    <MenuItem
+      icon="menu.svg"
+      key="Test"
+      label="Test"
+    />
+  </WithStyles(ForwardRef(List))>
+</WithStyles(ForwardRef(Drawer))>
+`;

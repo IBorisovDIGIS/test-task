@@ -1,0 +1,12 @@
+{
+  "translation": {
+    "services": "Services",
+    "filter": "Filter",
+    "reset": "Reset",
+    "balance": "Balance",
+    "payout": "Payout",
+    "promocode": "Promocode",
+    "activateBonus": "activate bonus",
+    "deActivateBonus": "deactivate bonus"
+  }
+}

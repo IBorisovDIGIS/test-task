@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render correctly Should renders correctly 1`] = `
+<WithStyles(ForwardRef(AppBar))
+  className="makeStyles-appBar-3"
+  position="absolute"
+>
+  <WithStyles(ForwardRef(Toolbar))
+    className="makeStyles-toolbar-1"
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+    >
+      <HeaderTextItem
+        label="balance"
+        title="0 $"
+      />
+      <HeaderTextItem
+        label="payout"
+        title="1 $"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <LanguageSelect />
+  </WithStyles(ForwardRef(Toolbar))>
+</WithStyles(ForwardRef(AppBar))>
+`;

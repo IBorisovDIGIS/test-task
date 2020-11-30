@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Custom Icon should render correctly Should renders correctly 1`] = `
+<WithStyles(ForwardRef(Icon))
+  classes={
+    Object {
+      "root": "makeStyles-iconRoot-2",
+    }
+  }
+>
+  <img
+    alt="icon"
+    className="makeStyles-imageIcon-1 testClass"
+    src="copy.svg"
+  />
+</WithStyles(ForwardRef(Icon))>
+`;

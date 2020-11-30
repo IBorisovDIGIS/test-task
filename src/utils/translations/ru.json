@@ -1,0 +1,12 @@
+{
+  "translation": {
+    "services": "Сервисы",
+    "filter": "Фильтр",
+    "balance": "Баланс",
+    "payout": "Оплата",
+    "reset": "Сброс",
+    "promocode": "Промокод",
+    "activateBonus": "Активировать бонус",
+    "deActivateBonus": "Деактивировать бонус"
+  }
+}

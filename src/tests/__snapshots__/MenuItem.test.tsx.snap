@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu item should render correctly Should renders correctly 1`] = `
+<WithStyles(ForwardRef(ListItem))
+  button={true}
+  classes={
+    Object {
+      "root": "makeStyles-itemContainer-1",
+    }
+  }
+>
+  <WithStyles(ForwardRef(ListItemIcon))>
+    <CustomIcon
+      alt="Dashboard"
+      icon="menu.svg"
+      iconClasses="makeStyles-imageIcon-2"
+    />
+  </WithStyles(ForwardRef(ListItemIcon))>
+  <WithStyles(ForwardRef(ListItemText))
+    classes={
+      Object {
+        "root": "makeStyles-text-4",
+      }
+    }
+    primary="Dashboard"
+  />
+</WithStyles(ForwardRef(ListItem))>
+`;

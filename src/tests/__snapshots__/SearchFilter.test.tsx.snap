@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search filter should render correctly Should renders correctly 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={1}
+>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="stretch"
+    container={true}
+    item={true}
+    xs={4}
+  >
+    <WithStyles(ForwardRef(TextField))
+      InputLabelProps={
+        Object {
+          "shrink": true,
+        }
+      }
+      InputProps={
+        Object {
+          "classes": Object {
+            "root": "makeStyles-input-4",
+          },
+          "disableUnderline": true,
+        }
+      }
+      fullWidth={true}
+      label="filter"
+      onChange={[Function]}
+      value=""
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    alignItems="flex-end"
+    container={true}
+    item={true}
+    xs={4}
+  >
+    <WithStyles(ForwardRef(Button))
+      classes={
+        Object {
+          "root": "makeStyles-button-5",
+        }
+      }
+      onClick={[Function]}
+      variant="outlined"
+    >
+      reset
+    </WithStyles(ForwardRef(Button))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

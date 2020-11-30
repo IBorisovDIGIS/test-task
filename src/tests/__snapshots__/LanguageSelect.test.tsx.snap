@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Language select should render correctly Should renders correctly 1`] = `
+<WithStyles(ForwardRef(Select))
+  onChange={[Function]}
+  value="en"
+>
+  <WithStyles(ForwardRef(MenuItem))
+    key="en"
+    value="en"
+  >
+    EN
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="ru"
+    value="ru"
+  >
+    RU
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="fr"
+    value="fr"
+  >
+    FR
+  </WithStyles(ForwardRef(MenuItem))>
+</WithStyles(ForwardRef(Select))>
+`;
